@@ -20,3 +20,6 @@
 6. Теги p с описанием пометить классом description_text и выравнять его содержимое по ширине.
 
 7. Задать отличный от белого цвета фон страницы
+
+Figma concept
+https://www.figma.com/design/iKrf3qzoXYuNedd9wgD4Z8/web_lab5?node-id=0-1&t=hAFjFZgjMTUD08iJ-1
