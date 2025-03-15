@@ -1,6 +1,8 @@
 :root {
   font-family: 'Bahnschrift';
   font-size: 62.5%;
+  color: white;
+  background-color: rgb(54, 54, 54);
 }
 
 html,
@@ -18,7 +20,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 
@@ -34,19 +36,15 @@ p {
 .location_container,
 .location_container iframe,
 .location_container img {
-  width: 29vw;
-  height: 27vh;
+  width: 24vw;
+  height: 23vh;
 }
 
-.image_container:hover {
+.location_container {
+  border: 0.5rem solid black;
+  transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.location_container:hover {
   transform: scale(1.5);
-}
-
-.description_text {
-  text-align: justify;
-}
-
-h2.description_header {
-  text-align: center;
-  color: red;
 }
