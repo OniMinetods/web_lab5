@@ -1,0 +1,52 @@
+:root {
+  font-family: 'Bahnschrift';
+  font-size: 62.5%;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.location_table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  place-items: center;
+  gap: 6rem;
+  font-size: 2rem;
+}
+
+.location_container,
+.location_container iframe,
+.location_container img {
+  width: 29vw;
+  height: 27vh;
+}
+
+.image_container:hover {
+  transform: scale(1.5);
+}
+
+.description_text {
+  text-align: justify;
+}
+
+h2.description_header {
+  text-align: center;
+  color: red;
+}
